@@ -1,0 +1,17 @@
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 15px solid black;
+    border-radius: 50%;
+    border-bottom: 15px solid rgb(154, 22, 136);
+    animation: border 2s ease-in 0s alternate;
+}
+
+@keyframes border{
+    to{
+        rotate: 0deg;
+    }
+    from{
+        rotate: 360deg;
+    }
+};
